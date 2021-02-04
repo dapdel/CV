@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: $texte;
+    scrollbar-width: none;
+  }
+  
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: $couleur_fond;
+  }
+  h1, h2, h3{
+    font-weight: normal;
+    margin:0;
+    padding:10px;
+    text-transform: uppercase;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    line-height:50px;
+  }
+  .chevbas{
+    font-size: 14vh;
+    text-align: center;
+    margin:0;
+    line-height: 7vh;
+    @media screen and (max-width: 640px) {
+      display: none;
+    }
+  }
+  .chev{
+    &:hover{
+      background-color: $couleur_3;
+      color: white;
+      
+    }
+  }
+  
+  .bord{
+    border:$bord;
+  }
+  .demibord{
+    border:$demibord;
+  }
+  //gestion des flex
+  .flex-v{
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-h{
+    display: flex;
+    flex-direction: row;
+  }
+  .fg{
+    flex-grow:1;
+  }
+  //gestion taille des blocs
+  .haut1{
+    height: calc(100vh/6);
+    @media screen and (max-width: 640px) {
+      height: 80px;
+    }
+  }
+  .haut2{
+    height: calc(100vh/3);
+    @media screen and (max-width: 640px) {
+      height: 160px;
+    }
+  }
+  .haut3{
+    height: calc(100vh/2);
+  }
+  .larg1{
+    width:calc(100vh/6);
+    @media screen and (max-width: 640px) {
+      width: 80px;
+    }
+  }
+  .larg2{
+    width:calc(100vh/3);
+    @media screen and (max-width: 640px) {
+      width: 200px;
+    }
+    
+  }
+  .larg3{
+    width:calc(100vh/2);
+  }
+  .larglogo{
+    width:calc((1.1671554252199)*100vh/6);
+    @media screen and (max-width: 640px) {
+      width: 80px;
+    }
+  }
+  .larg1logo{
+    width:calc((3000vh/84));
+    @media screen and (max-width: 640px) {
+      width: 240px;
+    }
+  }
+  .rel{
+    position:relative;
+  }
+  .abs{
+    position:absolute;
+  }
+  .coul0{
+    background-color: $couleur_0;
+  }
+  .coul1{//janue
+    background-color: $couleur_1;
+  }
+  .coul2{//rouge
+    background-color: $couleur_2;
+  }
+  .coul3{//bleu
+    background-color: $couleur_3;
+  }
+  .coul4{//noir
+    background-color: $couleur_bord;
+  }
+  .milieu-gauche{
+    width:72%;
+}
+.milieu-droite{
+    width:28%;
+}
+.larg100{
+  width:100%;
+}
+.raj{
+  display: none;
+  @media screen and (max-width: 640px) {
+      display:block;
+    }
+}
+@media screen and (max-width: 1280px) {
+  .inv1{
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .inv2{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inv3{
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .inv4{
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .inv5{
+    display: none;
+  }
+}
+  
+
+  
+ 

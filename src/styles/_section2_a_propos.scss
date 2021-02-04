@@ -1,0 +1,109 @@
+.sectionAPropos{
+    //opacity:0.3;
+    position: relative;
+    z-index:1;
+   width:100vw;
+   height:100vh;
+   //overflow: hidden;
+   @media screen and (max-width: 640px) {
+    overflow: visible;
+    height: auto;
+    }
+    div>p{
+        width:40%;
+        margin-left:20%;
+        @media screen and (max-width: 1024px) {
+            width:50%;
+          }
+        @media screen and (max-width: 768px) {
+            width:70%;
+          }
+        @media screen and (max-width: 640px) {
+            margin-left:30%;
+            width:60%;
+            }
+    }
+    blockquote{
+        margin-right: 20%;
+        text-align: right;
+        cite{
+            font-weight: bold;
+            margin-left:40%;
+            width:50%
+        }
+        p{
+            margin:3px;
+        }
+    }
+    .text{
+        height:calc(500vh/6);
+        padding-top:calc(105vh/3);
+        justify-content: space-around;
+        @media screen and (max-width: 640px) {
+            height:auto;
+            padding-top:180px;
+           
+            }
+    }
+    .titre{
+        top: calc(100vh/6);
+        left: calc(100vh/6);
+        @media screen and (max-width: 640px) {
+        top: 80px;
+        left: 80px;
+        }
+    }
+    .car1{
+        top: calc(100vh/6);
+        @media screen and (max-width: 640px) {
+        top: 80px;
+        }
+    }
+    .car2{
+        top: calc(250vh/6);
+        transform: rotate(20deg);
+        left: 3%;
+        @media screen and (max-width: 640px) {
+            top: 200px;
+        }
+    }
+    .car3{
+        top: calc(400vh/6);
+        transform: rotate(-15deg);
+        left:20%;
+        @media screen and (max-width: 640px) {
+            top: 240px;
+        }
+    }
+    .car4{
+        top: calc(200vh/6);
+        transform: rotate(-15deg);
+        right:10%;
+        @media screen and (max-width: 768px) {
+            top: calc(100vh/6);
+        }
+        @media screen and (max-width: 640px) {
+            top: 80px;
+            right:10px;
+        }
+    }
+    .car5{
+        top: calc(70vh/6);
+        transform: rotate(100deg);
+        left: 50%;
+        @media screen and (max-width: 640px) {
+        top: 80px;
+        left: 80px;
+        }
+    }
+    .car6{
+        top: calc(400vh/6);
+        right:0;
+        @media screen and (max-width: 640px) {
+        top: 80px;
+        left: 80px;
+        }
+    }
+
+
+}

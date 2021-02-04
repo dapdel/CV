@@ -1,0 +1,130 @@
+.sectionAccueil{
+    //opacity:0.3;
+    position: relative;
+    z-index:1;
+   width:100vw;
+   height:100vh;
+   //overflow: hidden;
+
+   @media screen and (max-width: 640px) {
+    overflow: visible;
+    height: 480px;
+  }
+    .milieu-gauche{
+        width:72%;
+    }
+    .milieu-droite{
+        width:28%;
+    }
+    nav:not(.cache){
+        &:hover{
+            background-color: $couleur_1;
+        }
+    }
+    
+    .cache{
+        &:hover{
+            @media screen and (max-width: 1024px) and (min-width: 640px){
+                background-color: $couleur_1;
+             }
+        }
+    }
+    nav {
+        &:hover{
+        @media screen and (max-width: 640px) {
+            background-color: white;
+            }
+        }
+    }
+    .lien{
+       font-size: 140%; 
+       text-transform: uppercase;
+        padding:15px;
+       margin:0;
+       @media screen and (max-width: 768px) {
+          font-size: 120%;
+        }
+        @media screen and (max-width: 640px) {
+            display:none;
+          }
+    }
+   
+    .accueil{
+        transform: rotate(-90deg);
+        position: absolute; 
+        right:-30px;
+        top: 20px; 
+    }
+    .parcoursbis{
+        transform: rotate(-90deg);
+        position: absolute; 
+        right:-40px;
+        top: 35px; 
+        display:none;
+        @media screen and (max-width: 1024px) {
+              display: block;
+        }
+        @media screen and (max-width: 640px) {
+            display:none;
+          }
+    }
+    .aPropos{
+        transform: rotate(-90deg);
+        position: absolute;  
+        right:-40px;
+        top: 35px;
+    }
+    .competences{
+        transform: rotate(-90deg);
+        position: absolute; 
+        right:-55px; 
+        top: 50px;
+    }
+    .interets{
+        transform: rotate(-90deg);
+        position: absolute;
+        right:-20px;
+        top: 30px; 
+        padding:10px;
+    }
+    .dev{
+        font-size: 180%;
+        color: white;
+        text-align: right;
+        text-transform: uppercase;
+        padding:15px;
+        margin:0;
+        @media screen and (max-width: 1024px) {
+            font-size: 140%;
+        }
+    }
+    .nom
+    {
+        align-items: flex-end;
+        color: white;
+        text-transform: uppercase;
+        padding:0px;
+        margin:0;
+        font-size: 150%;
+        @media screen and (max-width: 1024px) {
+              width:100%;
+        }
+    }
+    .front, .fin{
+        @media screen and (max-width: 640px) {
+            width: 100%;
+        }
+    }
+    .portfoliobis{
+        margin:0;
+        display:none;
+        @media screen and (max-width: 1024px) {
+              display: block;
+
+        }
+        @media screen and (max-width: 640px) {
+            display:none;
+          }
+    }
+   
+}

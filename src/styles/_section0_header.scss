@@ -1,0 +1,47 @@
+.sectionHeader{
+    position:fixed;
+    width: 100%;
+    z-index:2;
+    .logo{
+        position: fixed;
+        left: calc(100vh/6);
+        @media screen and (max-width: 640px) {
+          left:0;
+          display:none;
+        }
+      }
+    img{
+        display:block;
+        width: 99%;
+        margin: auto;
+        @media screen and (max-width: 640px) {
+            width: 100%;
+            padding-top:6px;
+        }
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        display:none;
+        z-index:1000;
+        @media screen and (max-width: 640px) {
+            display:flex;
+          }
+
+    }
+    .menu>p{
+        text-align: center;
+       margin:0;
+    }
+    .menu>i{
+        font-size: 250%;
+        display: block;
+        margin:auto;
+        margin-top: 4px;
+        text-align: center;
+    }
+    
+
+  
+    
+}

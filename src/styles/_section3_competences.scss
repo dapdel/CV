@@ -1,0 +1,23 @@
+.sectionCompetences{
+    position: relative;
+    z-index:1;
+   width:100vw;
+   min-height:100vh;
+   //overflow: hidden;
+   @media screen and (max-width: 640px) {
+    overflow: visible;
+    }
+
+    .car1{
+        left: calc(240vh/6);
+        transform: rotate(10deg);
+        top:-50px;
+        @media screen and (max-width: 640px) {
+       left: 180px;
+        }
+    }
+    .gauche, .droite{
+        width:40%;
+    }
+
+}
