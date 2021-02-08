@@ -29,11 +29,15 @@
         cite{
             font-weight: bold;
             margin-left:40%;
-            width:50%
+            width:50%;
+           
         }
         p{
             margin:3px;
         }
+        @media screen and (max-width: 640px) {
+            padding-bottom: 50px;
+            }
     }
     .text{
         height:calc(500vh/6);
@@ -46,15 +50,15 @@
             }
     }
     .titre{
-        top: calc(100vh/6);
-        left: calc(100vh/6);
+        top: $larg1;
+        left: $larg1;
         @media screen and (max-width: 640px) {
         top: 80px;
         left: 80px;
         }
     }
     .car1{
-        top: calc(100vh/6);
+        top: $larg1;
         @media screen and (max-width: 640px) {
         top: 80px;
         }
@@ -80,7 +84,7 @@
         transform: rotate(-15deg);
         right:10%;
         @media screen and (max-width: 768px) {
-            top: calc(100vh/6);
+            top: $larg1;
         }
         @media screen and (max-width: 640px) {
             top: 80px;

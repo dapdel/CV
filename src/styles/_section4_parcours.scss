@@ -1,0 +1,82 @@
+.sectionParcours{
+    position: relative;
+    z-index:1;
+   width:100vw;
+   min-height:100vh;
+   //overflow: hidden;
+   @media screen and (max-width: 640px) {
+    overflow: visible;
+    }
+    .titre{
+        margin-left:50%;
+        transform: translateX(-$larg1);
+        @media screen and (max-width: 640px) {
+            transform: translateX(-80px);
+            }
+    }
+    p{
+        margin:5px;
+    }
+    .date{
+        width:100px;
+    }
+    .haut{
+        //transform: translateX(9px);
+        justify-content:flex-end;
+        @media screen and (max-width: 640px) {
+            justify-content:flex-start;
+            }
+        
+        .info{
+            text-align:left;
+        }
+    }
+    .bas{
+        justify-content:flex-start;
+        @media screen and (max-width: 640px) {
+            justify-content:flex-end;
+            }
+        .info{
+            text-align:right;
+        }
+    }
+    .info{
+        max-width:400px;
+        @media screen and (max-width: 640px) {
+            width: unset;
+            }
+    }
+    .vide{
+        max-width:50%;
+        @media screen and (max-width: 640px) {
+           display: none;
+        }
+    }
+  
+   
+    .tout{ 
+      height:calc(500vh/6);
+      max-width: 980px;
+      margin:auto;
+        @media screen and (max-width: 640px) {
+            margin: 20px;
+            width:unset;
+            height:unset;
+            }
+    }
+    .haut{
+        margin:25px;
+        @media screen and (max-width: 640px) {
+            margin:0px;
+            margin-top:30px;
+            margin-bottom:20px;
+            }  
+    }
+    .bas{
+        margin:25px;
+        @media screen and (max-width: 640px) {
+            margin:0px;
+            }  
+    }
+
+}

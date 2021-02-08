@@ -29,7 +29,7 @@ export const Section1Accueil = () => (
                 </div>
                 <div className="droite  flex-h haut2 inv4">
                     <nav className="gauche bord larg1 rel ">
-                        <a className="lien competences" href="#">Competences</a>
+                        <a className="lien competences" href="#section3">Competences</a>
                     </nav>
                     <div className="droite  flex-v">
                         <div className="bord  haut1"></div>

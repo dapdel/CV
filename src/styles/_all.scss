@@ -73,7 +73,7 @@
     height: calc(100vh/2);
   }
   .larg1{
-    width:calc(100vh/6);
+    width:$larg1;
     @media screen and (max-width: 640px) {
       width: 80px;
     }
@@ -89,7 +89,7 @@
     width:calc(100vh/2);
   }
   .larglogo{
-    width:calc((1.1671554252199)*100vh/6);
+    width:$larglogo;
     @media screen and (max-width: 640px) {
       width: 80px;
     }

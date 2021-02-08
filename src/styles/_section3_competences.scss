@@ -13,11 +13,44 @@
         transform: rotate(10deg);
         top:-50px;
         @media screen and (max-width: 640px) {
-       left: 180px;
+            left:30%;
         }
     }
-    .gauche, .droite{
-        width:40%;
+    .maingauche, .maindroite, .mainmilieu{
+        min-width:30%;   
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        @media screen and (max-width: 640px) {
+            flex-direction: column;
+        }
+    }
+    p{
+        padding:15px;
+    }
+    .car2{
+        right: 0;
+        top: calc(-100vh/6);
+    }
+    .car3{
+        transform: rotate(100deg);
+        right: calc(40vh/6);
+    
+    }
+    .car4{
+        transform: rotate(10deg);
+        top: calc(350vh/6);
+    }
+ 
+    .car6{
+        transform: rotate(-20deg);
+        bottom: calc(-40vh/6);
+        left: calc(300vh/6);
+        @media screen and (max-width: 640px) {
+            bottom: 0px;
+            left: 70vw
+        }
     }
 
 }

@@ -8,6 +8,7 @@ import { Section0Header } from './components/section0_header';
 import { Section1Accueil } from './components/section1_accueil';
 import { Section2APropos } from './components/section2_a_propos';
 import { Section3Competences } from './components/section3_competences';
+import { Section4Parcours } from './components/section4_parcours';
 
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Section1Accueil />
     <Section2APropos />
     <Section3Competences />
+    <Section4Parcours />
   </React.StrictMode>,
   document.getElementById('root')
 );
