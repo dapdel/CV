@@ -2,13 +2,15 @@ import React from 'react';
 
 export const Section4Parcours = () => (
     <section id="section4" className="section sectionParcours ">
-        <div className=" larg2 haut1 raj"></div>
+        <div className="bord larg1logo haut1 coul0"></div>
+        
         <h2 className="titre bord larg2 haut1 coul1">
         Parcours</h2>
         <div className="tout flex-v">
+            <div className="bord sstitre haut1 larg2 coul2 rel raj"><h3 className="experiences abs ">Experiences</h3></div>
             <div className="haut flex-h">
-                <div className="vide"></div>
-                <div className="flex-v">
+                <div className="bord sstitre larg1 coul2 rel inv4"><h3 className="experiences abs ">Experiences</h3></div>
+                <div className="haut-droite flex-v">
                     <div className="flex-h">
                         <p className="date">2018-2019</p>
                         <p className="info">Conseillère en accessibilité (PFI) 
@@ -35,7 +37,10 @@ export const Section4Parcours = () => (
                 </div>
             </div>
             <div className="bas flex-h">
-                <div className="flex-v">
+                <div className="bas-gauche flex-v">
+                    <div className="flex-h">
+                        <div className="bord sstitre haut1 coul3 rel larg2 raj"><h3 className="formations abs">Formations</h3></div>
+                    </div>
                     <div className="flex-h">
                         <p className="info">Webmaster - Front End Developer 
                         chez Interface3 à Bruxelles               
@@ -62,7 +67,8 @@ export const Section4Parcours = () => (
                         <p className="date">1980-1989</p>
                     </div>
                 </div>
-                <div className="vide"></div>
+                <div className="bord sstitre larg1 coul3 rel inv4"><h3 className="formations abs">Formations</h3></div>
+                
             </div>
         </div>
     </section>

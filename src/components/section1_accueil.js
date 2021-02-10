@@ -9,7 +9,7 @@ export const Section1Accueil = () => (
             </nav>
             <div className="bord haut1"></div>
             <nav className="bord haut2 rel cache">
-                <a className="lien parcoursbis parcours" href="#">Parcours</a>
+                <a className="lien parcoursbis parcours" href="#section4">Parcours</a>
             </nav>
         </div>
         <div className="milieu-gauche flex-v fg">
@@ -96,7 +96,7 @@ export const Section1Accueil = () => (
                 </div>
             </div>
             <nav className="bas bord haut1">
-                <a className="lien parcours" href="#">Parcours</a>
+                <a className="lien parcours" href="#section4">Parcours</a>
             </nav>
         </div>
         <div className="droite flex-v">

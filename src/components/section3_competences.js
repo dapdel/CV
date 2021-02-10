@@ -2,10 +2,11 @@ import React from 'react';
 
 export const Section3Competences = () => (
     <section id="section3" className="section sectionCompetences rel">
+        <div className="bord larg1 haut1 coul0"></div>
        <div className="flex-h haut1 larg100 rel">
             <div className="bord larg1 coul0">
             </div>
-            <div className="bord larglogo coul0 inv3"></div> 
+            <div className="bord larglogo coul0 inv5"></div> 
             <div className="bord larg2 coul0 haut1 abs car1">
             </div>
         </div>
@@ -70,7 +71,7 @@ export const Section3Competences = () => (
                 <div className="bord larg1 haut1 coul0 car4 abs inv4"></div>
             </div>
         </div>
-        <div className="bord larg1logo haut1 coul0 car5 abs"></div>
-        <div className="bord larg1 haut1 coul0 car6 abs"></div>
+        
+        <div className="bord larg1 haut1 coul0 car6 inv5 abs"></div>
     </section>
     );

@@ -5,6 +5,10 @@
    width:100vw;
    height:100vh;
    //overflow: hidden;
+   @media screen and (max-width: 900px) {
+    overflow: visible;
+    height: auto;
+    }
    @media screen and (max-width: 640px) {
     overflow: visible;
     height: auto;
@@ -15,10 +19,8 @@
         @media screen and (max-width: 1024px) {
             width:50%;
           }
-        @media screen and (max-width: 768px) {
-            width:70%;
-          }
-        @media screen and (max-width: 640px) {
+        
+        @media screen and (max-width: 900px) {
             margin-left:30%;
             width:60%;
             }
@@ -43,15 +45,24 @@
         height:calc(500vh/6);
         padding-top:calc(105vh/3);
         justify-content: space-around;
+        @media screen and (max-width: 900px) {
+            height:auto;
+            padding-top:240px;
+            margin-bottom: 60px;
+            }
         @media screen and (max-width: 640px) {
             height:auto;
             padding-top:180px;
-           
+            margin-bottom: 0px;
             }
     }
     .titre{
         top: $larg1;
         left: $larg1;
+        @media screen and (max-width: 900px) {
+            top: 100px;
+            left: 100px;
+            }
         @media screen and (max-width: 640px) {
         top: 80px;
         left: 80px;
@@ -59,6 +70,9 @@
     }
     .car1{
         top: $larg1;
+        @media screen and (max-width: 900px) {
+            top: 100px;
+            }
         @media screen and (max-width: 640px) {
         top: 80px;
         }
@@ -67,9 +81,10 @@
         top: calc(250vh/6);
         transform: rotate(20deg);
         left: 3%;
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: 900px) {
             top: 200px;
         }
+       
     }
     .car3{
         top: calc(400vh/6);
@@ -83,8 +98,8 @@
         top: calc(200vh/6);
         transform: rotate(-15deg);
         right:10%;
-        @media screen and (max-width: 768px) {
-            top: $larg1;
+        @media screen and (max-width: 900px) {
+            top: 80px;
         }
         @media screen and (max-width: 640px) {
             top: 80px;
@@ -95,6 +110,10 @@
         top: calc(70vh/6);
         transform: rotate(100deg);
         left: 50%;
+        @media screen and (max-width: 900px) {
+            top: 0px;
+            left: 400px;
+            }
         @media screen and (max-width: 640px) {
         top: 80px;
         left: 80px;
@@ -103,6 +122,10 @@
     .car6{
         top: calc(400vh/6);
         right:0;
+        @media screen and (max-width: 900px) {
+            top: 520px;
+           
+            }
         @media screen and (max-width: 640px) {
         top: 80px;
         left: 80px;

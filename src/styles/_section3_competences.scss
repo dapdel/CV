@@ -4,17 +4,27 @@
    width:100vw;
    min-height:100vh;
    //overflow: hidden;
+   @media screen and (max-width: 900px) {
+    overflow: visible;
+    min-height:600px;
+    }
    @media screen and (max-width: 640px) {
     overflow: visible;
     }
 
     .car1{
-        left: calc(240vh/6);
+        left: calc(50vh);
         transform: rotate(10deg);
         top:-50px;
-        @media screen and (max-width: 640px) {
-            left:30%;
+        @media screen and (max-width: 900px) {
+            left:250px;
         }
+        @media screen and (max-width: 640px) {
+            left:50%;
+        }
+        @media screen and (max-width: 420px) {
+            left:30%;
+          }
     }
     .maingauche, .maindroite, .mainmilieu{
         min-width:30%;   
@@ -36,20 +46,34 @@
     .car3{
         transform: rotate(100deg);
         right: calc(40vh/6);
+        @media screen and (max-width: 900px) {
+        
+             right: 30px;
+         }
     
     }
     .car4{
         transform: rotate(10deg);
         top: calc(350vh/6);
+        @media screen and (max-width: 900px) {
+           top:250px;
+            right: 20px;
+        }
     }
  
     .car6{
-        transform: rotate(-20deg);
-        bottom: calc(-40vh/6);
+        transform: rotate(-10deg);
+        bottom: calc(-140vh/6);
         left: calc(300vh/6);
+        @media screen and (max-width: 900px) {
+            bottom: -150px;
+            left: 210px;
+            //right: 20px;
+        }
         @media screen and (max-width: 640px) {
-            bottom: 0px;
-            left: 70vw
+            bottom: -70px;
+            left: unset;
+            right: 20px;
         }
     }
 

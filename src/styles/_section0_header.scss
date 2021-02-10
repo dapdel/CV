@@ -5,6 +5,9 @@
     .logo{
         position: fixed;
         left: calc(100vh/6);
+        @media screen and (max-width: 900px) {
+            left:100px;
+          }
         @media screen and (max-width: 640px) {
           left:0;
           display:none;
@@ -14,6 +17,10 @@
         display:block;
         width: 99%;
         margin: auto;
+        @media screen and (max-width: 900px) {
+            width: 100%;
+            padding-top:6px;
+        }
         @media screen and (max-width: 640px) {
             width: 100%;
             padding-top:6px;

@@ -5,7 +5,10 @@
    width:100vw;
    height:100vh;
    //overflow: hidden;
-
+    @media screen and (max-width: 900px) {
+        overflow: visible;
+        height: 600px;
+    }
    @media screen and (max-width: 640px) {
     overflow: visible;
     height: 480px;
@@ -41,10 +44,9 @@
        text-transform: uppercase;
         padding:15px;
        margin:0;
-       @media screen and (max-width: 768px) {
-          font-size: 120%;
-        }
+    
         @media screen and (max-width: 640px) {
+            font-size: 120%;
             display:none;
           }
     }
@@ -73,6 +75,9 @@
         position: absolute;  
         right:-40px;
         top: 35px;
+        @media screen and (max-width: 900px) {
+            width: 150px;
+          }
     }
     .competences{
         transform: rotate(-90deg);
@@ -95,7 +100,7 @@
         padding:15px;
         margin:0;
         @media screen and (max-width: 1024px) {
-            font-size: 140%;
+            font-size: 150%;
         }
     }
     .nom
