@@ -1,7 +1,8 @@
 import React from 'react';
 
 export const Section4Parcours = () => (
-    <section id="section4" className="section sectionParcours ">
+    <section id="section4" className="section sectionParcours rel">
+         <div className="bord larg1 haut1 coul0 car6 inv5 abs"></div>
         <div className="bord larg1logo haut1 coul0"></div>
         
         <h2 className="titre bord larg2 haut1 coul1">
@@ -68,8 +69,8 @@ export const Section4Parcours = () => (
                     </div>
                 </div>
                 <div className="bord sstitre larg1 coul3 rel inv4"><h3 className="formations abs">Formations</h3></div>
-                
             </div>
         </div>
+        <div className=" bord larg1 haut1 coul0 car1 abs"></div>
     </section>
     );

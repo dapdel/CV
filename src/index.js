@@ -9,6 +9,7 @@ import { Section1Accueil } from './components/section1_accueil';
 import { Section2APropos } from './components/section2_a_propos';
 import { Section3Competences } from './components/section3_competences';
 import { Section4Parcours } from './components/section4_parcours';
+import { Section5Portfolio } from './components/section5_portfolio';
 
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Section2APropos />
     <Section3Competences />
     <Section4Parcours />
+    <Section5Portfolio/>
   </React.StrictMode>,
   document.getElementById('root')
 );

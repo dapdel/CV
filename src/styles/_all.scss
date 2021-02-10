@@ -113,7 +113,7 @@
     }
   }
   .larg1logo{
-    width:calc((3000vh/84));
+    width:calc((2.1671554252199)*100vh/6);
     @media screen and (max-width: 900px) {
       width: 200px;
     }
@@ -181,6 +181,9 @@
   .inv5{
     display: none;
   }
+}
+.flexend{
+  justify-content:flex-end;
 }
   
 

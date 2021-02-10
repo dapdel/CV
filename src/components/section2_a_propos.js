@@ -13,7 +13,7 @@ export const Section2APropos = () => (
             <div className="bord larg1logo inv2 coul0"></div>
             <div className="haut1 fg"></div>
             <div className="bord larg1 coul0 inv1"></div>   
-            <div className="bord larg1 inv1"></div>
+            <div className="larg1 inv1"></div>
             <div className="bord larg1 coul2"></div>
             <div className="bord larg1 coul0"></div>
         </div>

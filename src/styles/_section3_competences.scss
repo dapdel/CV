@@ -47,7 +47,6 @@
         transform: rotate(100deg);
         right: calc(40vh/6);
         @media screen and (max-width: 900px) {
-        
              right: 30px;
          }
     
@@ -61,20 +60,6 @@
         }
     }
  
-    .car6{
-        transform: rotate(-10deg);
-        bottom: calc(-140vh/6);
-        left: calc(300vh/6);
-        @media screen and (max-width: 900px) {
-            bottom: -150px;
-            left: 210px;
-            //right: 20px;
-        }
-        @media screen and (max-width: 640px) {
-            bottom: -70px;
-            left: unset;
-            right: 20px;
-        }
-    }
+   
 
 }

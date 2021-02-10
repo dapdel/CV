@@ -72,6 +72,6 @@ export const Section3Competences = () => (
             </div>
         </div>
         
-        <div className="bord larg1 haut1 coul0 car6 inv5 abs"></div>
+       
     </section>
     );

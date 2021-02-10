@@ -1,0 +1,55 @@
+.sectionPortfolio{
+    position: relative;
+    z-index:1;
+    width:100vw;
+    min-height:100vh;
+   //overflow: hidden;
+   @media screen and (max-width: 900px) {
+    overflow: visible;
+    min-height: 600px;
+    }
+    @media screen and (max-width: 640px) {
+    overflow: visible;
+    }
+    div{
+        min-width: 30px;
+    }
+    .car1{
+        transform: rotate(10deg);
+        top: calc(-120vh/6);
+        left: calc(170vh/6);
+        @media screen and (max-width: 900px) {
+            top: -120px;
+            left: 150%;
+            }
+        @media screen and (max-width: 640px) {
+            left: 50%;
+            }
+    }
+    .car2{
+        transform: rotate(-15deg);
+        top: calc(120vh/6);
+        left: calc(280vh/6);
+        @media screen and (max-width: 900px) {
+            top: 120px;
+            left: 150%;
+            }
+        @media screen and (max-width: 640px) {
+            top: 100px;
+            left: 200px;
+            }
+    }
+    .car3{
+        transform: rotate(5deg);
+        top: calc(150vh/6);
+        right: 20px;
+        @media screen and (max-width: 900px) {
+            top:180px;
+            }
+        @media screen and (max-width: 640px) {
+            top:150px;
+            right: 30px;
+            }
+    }
+
+}

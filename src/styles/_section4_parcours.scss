@@ -7,9 +7,11 @@
    @media screen and (max-width: 900px) {
     overflow: visible;
     min-height: 600px;
+    padding-bottom:100px;
     }
     @media screen and (max-width: 640px) {
     overflow: visible;
+    padding-bottom:80px;
     }
     .titre{
         margin-left:50%;
@@ -56,9 +58,11 @@
         transform: translateX(-20px);
         justify-content:flex-end;
         padding-right: 15px;
+        @media screen and (max-width: 900px) {
+            transform: translateX(0px);
+            }
         @media screen and (max-width: 640px) {
             justify-content:flex-start;
-            transform: translateX(0px);
             }
         .info{
             text-align:left;  
@@ -109,17 +113,35 @@
                 }
         }
     }
-
- 
     .tout{ 
         max-width: 980px;
+        min-height: calc(100vh/2);
         margin:auto;
         justify-content: center;
         @media screen and (max-width: 900px) {
             margin: 0 20px;
             width:unset;
-            height:unset;
+            min-height:unset;
             }
+    }
+    .car1{
+        right:0;
+        bottom:0;
+    }
+    .car6{
+        transform: rotate(-10deg);
+        top:20px;
+        left: calc(250vh/6);
+        @media screen and (max-width: 900px) {
+            top: 20px;
+            left: 220px;
+            //right: 20px;
+        }
+        @media screen and (max-width: 640px) {
+            top: 0px;
+            left: unset;
+            right: 20px;
+        }
     }
   
   
