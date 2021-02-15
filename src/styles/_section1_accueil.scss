@@ -19,31 +19,26 @@
     .milieu-droite{
         width:28%;
     }
-    nav:not(.cache){
+    
+    nav{
         &:hover{
             background-color: $couleur_1;
+            cursor: pointer; 
+            @media screen and (max-width: 640px) {
+                background-color: $couleur_0;
+                cursor: unset; 
+              }
         }
     }
-    
-    .cache{
-        &:hover{
-            @media screen and (max-width: 1024px) and (min-width: 640px){
-                background-color: $couleur_1;
-             }
-        }
-    }
-    nav {
-        &:hover{
-        @media screen and (max-width: 640px) {
-            background-color: white;
-            }
-        }
-    }
+  
     .lien{
-       font-size: 140%; 
+       font-size: 3.5vh; 
        text-transform: uppercase;
         padding:15px;
        margin:0;
+       @media screen and (max-width: 900px) {
+        font-size: 130%;
+      }
     
         @media screen and (max-width: 640px) {
             font-size: 120%;
@@ -56,6 +51,18 @@
         position: absolute; 
         right:-30px;
         top: 20px; 
+    }
+    .midvis{
+        display:none;
+        @media screen and (max-width: 1024px) {
+            display: block;
+      }
+    }
+    .midcache{
+        display:block;
+        @media screen and (max-width: 1024px) {
+            display: none;
+      }
     }
     .parcoursbis{
         transform: rotate(-90deg);
@@ -82,22 +89,21 @@
     .competences{
         transform: rotate(-90deg);
         position: absolute; 
-        right:-55px; 
-        top: 50px;
+        right:-60px; 
+        top:12vh;
     }
     .interets{
         transform: rotate(-90deg);
         position: absolute;
-        right:-20px;
+        right:-30px;
         top: 30px; 
-        padding:10px;
     }
     .dev{
         font-size: 180%;
         color: white;
         text-align: right;
         text-transform: uppercase;
-        padding:15px;
+        padding:10px 15px;
         margin:0;
         @media screen and (max-width: 1024px) {
             font-size: 150%;
@@ -125,8 +131,13 @@
         display:none;
         @media screen and (max-width: 1024px) {
               display: block;
-
         }
+        @media screen and (max-width: 640px) {
+            display:none;
+          }
+    }
+    .contact{
+        display:block;
         @media screen and (max-width: 640px) {
             display:none;
           }

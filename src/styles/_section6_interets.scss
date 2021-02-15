@@ -1,0 +1,111 @@
+.sectionInterets{
+    //opacity:0.3;
+    position: relative;
+    z-index:1;
+   width:100vw;
+   //height:100vh;
+   //overflow: hidden;
+    @media screen and (max-width: 900px) {
+        overflow: visible; 
+        height:auto;
+    }
+    @media screen and (max-width: 640px) {
+        height: auto;
+         }
+
+    p{
+        margin:0;
+        padding:10px;
+    }
+    .car0{
+        left:30%;
+        top:20px;
+        transform: rotate(-15deg); 
+    }
+    .car1{
+        right:10%;
+        transform: rotate(-5deg);
+        top:40px;
+    }
+    .car2{
+        right:1%;
+        transform: rotate(5deg);
+        top:-20px;
+    }
+    .tennis{
+        left:70%;
+        transform: rotate(10deg);
+    }
+    .artflor{
+        left:35%;
+        transform: rotate(-15deg);
+        top: -50px;
+    }
+    .ski{
+        left:10%;
+        transform: rotate(-30deg);
+        top: 60px;
+    }
+    .interets{
+        left:30%;
+    }
+    .peintdic{
+        right:3%;
+        transform: rotate(-15deg);
+        top: 80px;
+    }
+    .chant{
+        left:2%;
+        transform: rotate(-5deg);
+        top: 0px;
+    }
+
+    .rando{
+        left:20%;
+        transform: rotate(5deg);
+        top: 60px;
+    }
+    .sculpt{
+        right:31%;
+        transform: rotate(-15deg);
+        top: -20px;
+        @media screen and (max-width: 640px) {
+            left:5%;
+            transform: rotate(15deg);
+             }
+    }
+    .piano{
+        right:10%;
+        top:40px;
+        transform: rotate(-5deg);
+        @media screen and (max-width: 640px) {
+            right:25%;
+             }
+    }
+    .car3{
+     left:30%;
+        transform: rotate(-25deg);
+        top:20px;
+    }
+    .car4{
+        top: calc(-100vh/6);
+        @media screen and (max-width: 900px) {
+            top:-100px;
+             }
+        @media screen and (max-width: 640px) {
+            top:0;
+             }
+    }
+    .car5{
+        left:50%;
+    }
+    .car6{
+        right:0;
+    }
+    .car7{
+        top:-80px;
+        right:0;
+    }
+
+
+}

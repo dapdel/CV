@@ -71,6 +71,5 @@ export const Section4Parcours = () => (
                 <div className="bord sstitre larg1 coul3 rel inv4"><h3 className="formations abs">Formations</h3></div>
             </div>
         </div>
-        <div className=" bord larg1 haut1 coul0 car1 abs"></div>
     </section>
     );

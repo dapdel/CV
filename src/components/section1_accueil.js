@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 export const Section1Accueil = () => (
@@ -8,9 +9,11 @@ export const Section1Accueil = () => (
                 <a className="lien accueil" href="#">Accueil</a>
             </nav>
             <div className="bord haut1"></div>
-            <nav className="bord haut2 rel cache">
-                <a className="lien parcoursbis parcours" href="#section4">Parcours</a>
+            <nav className="midvis bord haut2 rel">
+                <a className="lien parcoursbis" href="#section4">Parcours</a>
             </nav>
+            <div className="midcache bord haut2 rel">
+            </div>
         </div>
         <div className="milieu-gauche flex-v fg">
             <div className="haut flex-h">
@@ -21,14 +24,16 @@ export const Section1Accueil = () => (
                         <div className="bord larg1 inv3"></div>
                     </div>
                     <div className="bas flex-h haut1">
-                        <nav className="bord larg1logo cache">
-                            <a className="lien portfoliobis portfolio" href="#">Portfolio</a>
+                        <nav className="bord midvis larg1logo inv5">
+                            <a className="lien portfoliobis portfolio" href="#section5">Portfolio</a>
                         </nav>
+                        <div className="midcache bord larg1logo inv5">
+                        </div>
                         <div className="bord fg"></div>
                     </div>
                 </div>
                 <div className="droite  flex-h haut2 inv4">
-                    <nav className="gauche bord larg1 rel ">
+                    <nav className="gauche bord larg1 rel">
                         <a className="lien competences" href="#section3">Competences</a>
                     </nav>
                     <div className="droite  flex-v">
@@ -38,7 +43,7 @@ export const Section1Accueil = () => (
                 </div>
             </div>
             <div className="milieu flex-h">
-                <div className="gauche flex-v larglogo">
+                <div className="gauche flex-v larglogo inv5">
                     <div className="bord haut1 larglogo"></div>
                     <nav className="bord haut2 rel larglogo">
                         <a className="aPropos lien" href="#section2">A Propos</a>
@@ -73,7 +78,7 @@ export const Section1Accueil = () => (
             <div className="bas flex-h haut1">
                 <div className="bord larg2 haut1 raj"></div>
                 <nav className="bord larg1logo fin">
-                    <a className="lien contact" href="#">Contact</a>
+                    <a className="lien contact" href="#section7">Contact</a>
                 </nav>
                 <div className="bord fg inv4">
                     </div>
@@ -82,7 +87,7 @@ export const Section1Accueil = () => (
         </div>
         <div className="milieu-droite flex-v inv2">
             <nav className="haut bord haut1">
-                <a className="lien portfolio" href="#">Portfolio</a>
+                <a className="lien portfolio" href="#section5">Portfolio</a>
             </nav>
             <div className="milieu flex-h">
                 <div className="gauche flex-v fg">
@@ -104,7 +109,7 @@ export const Section1Accueil = () => (
             </div>
             <div className="bord haut1"></div>
             <nav className="bord haut2 rel">
-                <a className="lien interets" href="#">Interets</a>
+                <a className="lien interets" href="#section6">Interets</a>
             </nav>
             <div className="bord haut1"></div>
             <div className="chev bord haut1">

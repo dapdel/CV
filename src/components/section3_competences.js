@@ -13,9 +13,9 @@ export const Section3Competences = () => (
         <div className="main" >
             <div className="maingauche flex-v">
                 <div className="haut flex-h">
-                    <div className="bord fg coul1 haut1"><h2>Competences</h2>
+                    <div className="bord larg1logo coul1 haut1"><h2>Competences</h2>
                     </div>
-                    <div className="bord larg1 coul0"></div> 
+                    <div className="bord fg coul0"></div> 
                 </div>
                 <div className=" milieu flex-h">
                     <div className="infographisme bord fg coul0 haut2">
@@ -29,9 +29,9 @@ export const Section3Competences = () => (
                     </div>
                 </div>
                 <div className="bas flex-h">
-                    <div className="bord larg1 coul0">
+                    <div className="bord fg coul0">
                     </div>
-                    <div className="bord fg coul0 haut1"></div> 
+                    <div className="bord larg2 coul0 haut1"></div> 
                 </div>
             </div>
             <div className="mainmilieu flex-v rel">
@@ -40,9 +40,9 @@ export const Section3Competences = () => (
                     <div className="gauche bord  haut2 coul2 larg100">
                         <p>Programmation :<br/>
                             Html5, CSS3 et SASS,   
-                            JavaScript, Jquery, 
+                            JavaScript, Jquery, React, 
                             PHP, MySQL, 
-                            Wordpress
+                            Wordpress, 
                             Github
                         </p>
 
