@@ -1,16 +1,17 @@
 import React from 'react';
 
+
 export const Section6Interets = () => (
     <section id="section6" className="section sectionInterets">
         <div className="haut1 raj">
-            <div className="car0 bord haut1 larg1 coul0 abs"></div>
+            <div className="car0 bord haut1 larg1 coul3 abs"></div>
         </div>
         <div className="haut1 raj rel">
             <div className=" car1 bord haut1 larg1 coul0 raj abs"></div>
         </div>
         <div className="haut1 rel">
             <p className="sculpt bord haut1 larg2 coul0 abs raj">Sculpture</p>
-            <div className="car2 bord haut1 larg1 coul0 inv4 abs"></div>
+            <div className="car2 bord haut1 larg1 coul2 inv4 abs"></div>
         </div>
         <div className="haut1 rel">
             <p className="ski bord haut1 larg1 coul0 abs">Ski</p>
@@ -33,11 +34,11 @@ export const Section6Interets = () => (
             <p className="car3 bord haut1 larg1 coul0 abs"></p>
         </div>
         <div className="haut1 rel">
-            <p className="car4 bord haut1 larg1 coul0 abs"></p>
+            <p className="car4 bord haut1 larg1 coul3 abs"></p>
             <p className="bord haut1 larg2 coul0 abs inv4"></p>
             <p className="car5 bord haut1 larg1 coul0 abs inv4"></p>
             <p className="car6 bord haut1 larg2 coul0 abs"></p>
-            <p className="car7 bord haut1 larg1 coul0 raj abs"></p>
+            <p className="car7 bord haut1 larg1 coul0 raj abs coul2"></p>
         </div>
 
     

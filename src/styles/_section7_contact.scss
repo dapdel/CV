@@ -32,6 +32,9 @@
         margin:0;
         text-align: right;
     }
+    img{
+        height: 100%;
+    }
     .gauche{
         width:45%;
         @media screen and (max-width: 900px) {
@@ -57,7 +60,58 @@
         @media screen and (max-width: 640px) {
             flex-wrap: wrap;
              }
+    }
+    label{
+        display: block;
+        padding: 15px;
+        //padding-bottom:0;
+        @media screen and (max-width: 640px) {
+            padding: 10px;
+             }
+    }
+    input{
+        margin: 15px;
+        margin-top:0;
+        border: none;
+        border-bottom: 1px black solid;
+        @media screen and (max-width: 900px) {
+            margin: 15px;
+            margin-top:0;
+             }
+        @media screen and (max-width: 650px) {
+            margin: 10px;
+            margin-top:0;
+            }
+    }
+    textarea{
+        margin: 15px;
+        margin-top:0;
+        height: 80%;
+        @media screen and (max-width: 900px) {
+            height: 150px;
+             }
+        @media screen and (max-width: 640px) {
+            margin: 10px;
+            margin-top:0;
+            height: 100px;
+             }
+    }
+    input[type="submit"] {
+        color: white;
+        margin: 15px;
+        border: none;
+        background-color: unset;
+        font-size:100%;
+    }
+    .envoyer, .cv, .in{
+        &:hover{
+            cursor: pointer;
+        }
 
+    }
+    a{
+        display: block;
+        padding:15px;
     }
 
 

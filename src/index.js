@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './styles/main.scss';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Menu } from './components/menu';
 import { Section0Header } from './components/section0_header';
 import { Section1Accueil } from './components/section1_accueil';
 import { Section2APropos } from './components/section2_a_propos';
@@ -16,6 +17,9 @@ import { Section7Contact } from './components/section7_contact';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Menu/>
+  
+  
     <Section0Header />
     <Section1Accueil />
     <Section2APropos />
