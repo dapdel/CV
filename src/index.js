@@ -18,8 +18,6 @@ import { Section7Contact } from './components/section7_contact';
 ReactDOM.render(
   <React.StrictMode>
     <Menu/>
-  
-  
     <Section0Header />
     <Section1Accueil />
     <Section2APropos />
@@ -37,3 +35,7 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // <Section0Header />
 reportWebVitals();
+
+
+
+

@@ -33,7 +33,7 @@ export const Section7Contact = () => (
                            
                         </div>
                         <div className="bord fg"></div>
-                        <div className="in bord larg1 coul4 raj"><i class="fab fa-linkedin-in"></i></div>
+                        <div className="in bord larg1 coul4 raj"><i className="fab fa-linkedin-in"></i></div>
                     </div>
                 </div>
                 <div className="centre fg">
@@ -42,11 +42,11 @@ export const Section7Contact = () => (
                         <div className="bord larg2 coul1"><h2>Contact</h2></div> 
                         <div className="bord fg"></div>
                     </div>
-                    <form action="mailto:daphne.vanraemdonck@skynet.be" method="post" enctype="text/plain">
+                    <form action="mailto:daphne.vanraemdonck@skynet.be" method="post">
                         <div className=" flex-h">
                             <div className=" flex-v fg">
                                 <div className="bord haut1 flex-v">
-                                    <label for="name">Nom:</label><br />
+                                    <label htmlFor="name">Nom:</label><br />
                                     <input
                                         type="text"
                                         id="name"
@@ -56,7 +56,7 @@ export const Section7Contact = () => (
                                         />
                                 </div>
                                 <div className="bord haut1 flex-v">
-                                    <label for="mail">Adresse mail:</label><br />
+                                    <label htmlFor="mail">Adresse mail:</label><br />
                                     <input
                                         type="text"
                                         id="mail"
@@ -69,7 +69,7 @@ export const Section7Contact = () => (
                             <div className="bord haut2 larg1"></div>
                         </div>
                         <div className="bord haut2 larg100 flex-v">
-                            <label for="mail">Message:</label><br />
+                            <label htmlFor="mail">Message:</label><br />
                             <textarea
                                 id="message"
                                 name="message"
@@ -86,7 +86,7 @@ export const Section7Contact = () => (
                 <div className="droite larg1 inv4">
                     <div className="bord haut1"></div>
                     <div className="bord haut1"></div>
-                    <div className="in bord haut1 coul4"><i class="fab fa-linkedin-in"></i></div>
+                    <div className="in bord haut1 coul4"><i className="fab fa-linkedin-in"></i></div>
                     <div className="bord haut2"></div>
                     <div className="bord haut1"></div>
                 </div>
