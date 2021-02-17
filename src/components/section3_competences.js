@@ -1,7 +1,11 @@
 import React from 'react';
+import Next from './next';
 
 export const Section3Competences = () => (
     <section id="section3" className="section sectionCompetences rel">
+        <div className="chevron abs haut1 larg1" onClick={Next}>
+            <i className="chevronBas fas fa-chevron-down"></i>
+        </div>
         <div className="bord larg1 haut1 coul0"></div>
        <div className="flex-h haut1 larg100 rel">
             <div className="bord larg1 coul0">

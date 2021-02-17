@@ -56,7 +56,10 @@
         display:none;
         @media screen and (max-width: 1024px) {
             display: block;
-      }
+        }
+        @media screen and (max-width: 420px) {
+            display: none;
+        }
     }
     .midcache{
         display:block;

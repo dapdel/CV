@@ -1,7 +1,11 @@
 import React from 'react';
+import Next from './next';
 
 export const Section4Parcours = () => (
     <section id="section4" className="section sectionParcours rel">
+        <div className="chevron abs haut1 larg1" onClick={Next}>
+            <i className="chevronBas fas fa-chevron-down"></i>
+        </div>
          <div className="bord larg1 haut1 coul0 car6 inv5 abs"></div>
         <div className="bord larg1logo haut1 coul0"></div>
         

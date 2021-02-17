@@ -106,5 +106,14 @@
         top:-80px;
         right:0;
     }
+    .chevron{
+        bottom: calc(100vh/6);
+       @media screen and (max-width: 900px) {
+           bottom:100px;
+        }
+    }
+   
+ 
+   
 
 }

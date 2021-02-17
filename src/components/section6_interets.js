@@ -1,8 +1,12 @@
 import React from 'react';
+import Next from './next';
 
 
 export const Section6Interets = () => (
-    <section id="section6" className="section sectionInterets">
+    <section id="section6" className="section sectionInterets rel">
+        <div className="chevron abs haut1 larg1" onClick={Next}>
+            <i className="chevronBas fas fa-chevron-down"></i>
+        </div>
         <div className="haut1 raj">
             <div className="car0 bord haut1 larg1 coul3 abs"></div>
         </div>
@@ -40,12 +44,5 @@ export const Section6Interets = () => (
             <p className="car6 bord haut1 larg2 coul0 abs"></p>
             <p className="car7 bord haut1 larg1 coul0 raj abs coul2"></p>
         </div>
-
-    
-
-
-
-
-
     </section>
     );

@@ -33,7 +33,7 @@
         text-align: right;
     }
     img{
-        height: 100%;
+        width: 100%;
     }
     .gauche{
         width:45%;
@@ -113,7 +113,11 @@
         display: block;
         padding:15px;
     }
-
-
-
+    .haut{
+       line-height:15vh;
+       color: black;
+       @media screen and (max-width: 900px) {
+        line-height:90px;
+         }
+    }
 }
