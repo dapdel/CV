@@ -42,7 +42,11 @@
         }
     }
     p{
-        padding:15px;
+        padding:30px;
+        @media screen and (max-width: 900px) {
+            padding:15px;
+        }
+       
     }
     .car2{
         right: 0;

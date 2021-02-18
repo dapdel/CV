@@ -13,7 +13,7 @@
     }
     .titre{
         margin-left:50%;
-        transform: translateX(-$larg1);
+        transform: translateX(calc(-100vh/6));
         @media screen and (max-width: 640px) {
             transform: translateX(-80px);
             }
@@ -26,8 +26,11 @@
     }
     .experiences{
         transform: rotate(-90deg); 
-        top: 50px;
+        top: 70px;
         left:-45px;
+        @media screen and (max-width: 900px) {
+            top: 50px;
+            }
         @media screen and (max-width: 640px) {
             transform: rotate(0deg); 
             top:30px;
@@ -36,8 +39,11 @@
     }
     .formations{
         transform: rotate(-90deg); 
-        top: 50px;
+        top: 70px;
         left:-45px;
+        @media screen and (max-width: 900px) {
+            top: 50px;
+            }
         @media screen and (max-width: 640px) {
             transform: rotate(0deg); 
             top:30px;

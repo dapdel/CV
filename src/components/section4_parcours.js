@@ -73,6 +73,7 @@ export const Section4Parcours = () => (
                     </div>
                 </div>
                 <div className="bord sstitre larg1 coul3 rel inv4"><h3 className="formations abs">Formations</h3></div>
+                <div className="larg1 haut1 inv4"></div>
             </div>
         </div>
     </section>

@@ -11,9 +11,21 @@ function retourAccueil() {
             clearInterval(int);}
     }, 20); 
 }
+function viderFormulaire() {
+    const envoye = document.querySelector(".envoye");
+    setTimeout(function(){
+        const formulaire = document.querySelector("#contact-form");
+        formulaire.reset();
+        envoye.style.display="block";
+    },300);
+    setTimeout(function(){
+        envoye.style.display="none";
+    },5000);
+}
 /*
     window.scrollTo({top:0, behavior:'smooth' })
     */
+   /*envlevé de form pour test: action="mailto:daphne.vanraemdonck@skynet.be" method="post"*/
 
 
 export const Section7Contact = () => (
@@ -63,15 +75,16 @@ export const Section7Contact = () => (
                         <div className="bord larg2 coul1"><h2>Contact</h2></div> 
                         <div className="bord fg"></div>
                     </div>
-                    <form action="mailto:daphne.vanraemdonck@skynet.be" method="post">
+                    <form id="contact-form" >
                         <div className=" flex-h">
                             <div className=" flex-v fg">
                                 <div className="bord haut1 flex-v">
-                                    <label htmlFor="name">Nom:</label><br />
+                                    <input type="hidden" name="contact_number"/>
+                                    <label htmlFor="user_name">Nom:</label><br />
                                     <input
                                         type="text"
-                                        id="name"
-                                        name="name"
+                                        id="user_name"
+                                        name="user_name"
                                         placeholder="Ex: Martin Dupond"
                                         required
                                         />
@@ -79,9 +92,9 @@ export const Section7Contact = () => (
                                 <div className="bord haut1 flex-v">
                                     <label htmlFor="mail">Adresse mail:</label><br />
                                     <input
-                                        type="text"
-                                        id="mail"
-                                        name="mail"
+                                        type="email"
+                                        id="user_email"
+                                        name="user_email"
                                         placeholder="Ex: martin.dupond@gmail.com"
                                         required
                                         />
@@ -100,7 +113,7 @@ export const Section7Contact = () => (
                         </div>
                         <div className="haut1 flex-h">
                             <div className="bord larg1"></div>
-                            <div className="envoyer bord fg coul3"><input type="submit" value="Envoyer" /></div>
+                            <div className="fg coul3 rel"><div className="envoye bord haut1 coul3 larg100 abs"><p>Message envoyé !</p></div><input className="bord envoyer" type="submit" value="Envoyer" onClick={viderFormulaire} /></div>
                         </div>
                     </form>
                 </div>
