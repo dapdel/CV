@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import Next from './next';
+import Next from './Next';
 
 export const Section1Accueil = () => (
     <section id="section1" className="section sectionAccueil rel coul0">

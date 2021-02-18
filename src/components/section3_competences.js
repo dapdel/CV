@@ -1,5 +1,5 @@
 import React from 'react';
-import Next from './next';
+import Next from './Next';
 
 export const Section3Competences = () => (
     <section id="section3" className="section sectionCompetences rel">

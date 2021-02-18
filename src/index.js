@@ -4,16 +4,14 @@ import ReactDOM from 'react-dom';
 import './styles/main.scss';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Section0Header } from './components/section0_header';
-import { Section1Accueil } from './components/section1_accueil';
-import { Section2APropos } from './components/section2_a_propos';
-import { Section3Competences } from './components/section3_competences';
-import { Section4Parcours } from './components/section4_parcours';
-import { Section5Portfolio } from './components/section5_portfolio';
-import { Section6Interets } from './components/section6_interets';
-import { Section7Contact } from './components/section7_contact';
-import { Popup0 } from './components/popup0';
-
+import { Section0Header } from './components/Section0_header';
+import { Section1Accueil } from './components/Section1_accueil';
+import { Section2APropos } from './components/Section2_a_propos';
+import { Section3Competences } from './components/Section3_competences';
+import { Section4Parcours } from './components/Section4_parcours';
+import Section5Portfolio from './components/Section5_portfolio';
+import { Section6Interets } from './components/Section6_interets';
+import { Section7Contact } from './components/Section7_contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,8 +20,7 @@ ReactDOM.render(
     <Section2APropos />
     <Section3Competences />
     <Section4Parcours />
-     <Section5Portfolio/>
-    <Popup0 />
+    <Section5Portfolio/>
     <Section6Interets/>
     <Section7Contact/>
   </React.StrictMode>,
