@@ -10,9 +10,9 @@ export const Section1Accueil = () => (
         <div className="flex-h">
             <div className="gauche flex-v inv4">
                 <div className="bord haut1 larg1"></div>
-                <nav className="bord haut2 rel coul1">
+                <div className="bord haut2 rel coul1">
                     <a className="lien accueil" href="#">Accueil</a>
-                </nav>
+                </div>
                 <div className="bord haut1"></div>
                 <nav className="midvis bord haut2 rel">
                     <a className="lien parcoursbis" href="#section4">Parcours</a>

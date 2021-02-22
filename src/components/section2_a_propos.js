@@ -46,7 +46,7 @@ export const Section2APropos = () => (
                 <cite>" Un voyage de mille kilomètres commence toujours par un premier pas"     </cite>
                 <p> Lao Tseu</p>
             </blockquote>
-            <div className="bord larg1 coul0 haut1 car6 abs inv4">
+            <div className=" larg1 haut1 car6 abs inv4">
             </div>
         </div>
     </section>

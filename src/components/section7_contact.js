@@ -80,7 +80,7 @@ export const Section7Contact = () => (
                             <div className=" flex-v fg">
                                 <div className="bord haut1 flex-v">
                                     <input type="hidden" name="contact_number"/>
-                                    <label htmlFor="user_name">Nom:</label><br />
+                                    <label htmlFor="user_name">Nom:</label>
                                     <input
                                         type="text"
                                         id="user_name"
@@ -90,7 +90,7 @@ export const Section7Contact = () => (
                                         />
                                 </div>
                                 <div className="bord haut1 flex-v">
-                                    <label htmlFor="mail">Adresse mail:</label><br />
+                                    <label htmlFor="mail">Adresse mail:</label>
                                     <input
                                         type="email"
                                         id="user_email"
@@ -123,7 +123,7 @@ export const Section7Contact = () => (
                     <div className="in bord haut1 coul4"><i className="fab fa-linkedin-in"></i></div>
                     <div className="bord haut2"></div>
                     <div className="bord haut1" onClick={retourAccueil}>
-                        <i className="haut fas fa-angle-double-up"></i>
+                        <i className="flechesHaut fas fa-angle-double-up"></i>
                     </div>
                 </div>
             </div>

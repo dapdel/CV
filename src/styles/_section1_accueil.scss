@@ -22,8 +22,9 @@
     
     nav{
         &:hover{
-            background-color: $couleur_1;
+            //background-color: $couleur_1;
             cursor: pointer; 
+            font-weight:bold;
             @media screen and (max-width: 640px) {
                 background-color: $couleur_0;
                 cursor: unset; 
@@ -115,6 +116,7 @@
     .portfolio, .parcours{
         display:block;
     }
+  
     .dev{
         font-size: 180%;
         color: white;

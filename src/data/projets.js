@@ -1,9 +1,9 @@
 const projets = [
-    {title: "Bedetheque",main_img:"bedetheque_1.jpg",imgs:["bedetheque_1.jpg", "bedetheque_2.jpg"],lang:"CSS, HTML, JS",github:"",site:""},
-    {title: "Jolly Seed",main_img:"jolly_seed_1.jpg",imgs:["jolly_seed_1.jpg", "jolly_seed_2.jpg", "jolly_seed_3.jpg", "jolly_seed_4.jpg", "jolly_seed_5.jpg", "jolly_seed_6.jpg", "jolly_seed_7.jpg", "jolly_seed_8.jpg"],lang:"CSS, HTML, PHP, JS",github:"https://github.com/mhansart/jolly_seed.git",site:""},
-    {title: "Dei Expo Bridge",main_img:"dei_1.jpg",imgs:["dei_1.jpg", "dei_2.jpg", "dei_3.jpg"],lang:"CSS, HTML, JS, React",github:"",site:"https://www.dei-belgique.be/expo-bridge/"},
-    {title: "Examen HTML/CSS",main_img:"exam_html_css_1.jpg",imgs:["exam_html_css_1.jpg", "exam_html_css_2.jpg", "exam_html_css_3.jpg"],lang:"CSS, HTML",github:"",site:""},
-    {title: "Première Calculette",main_img:"premiere_calculette.jpg",imgs:"premiere_calculette.jpg",lang:"CSS, HTML, JS",github:"https://github.com/dapdel/calculatrice.git",site:""},
-    {title: "Theatre",main_img:"theatre_1.jpg",imgs:["theatre_1.jpg", "theatre_2.jpg", "theatre_3.jpg", "theatre_3.jpg"],lang:"CSS, HTML, JS",github:"https://github.com/dapdel/20_10_30_theatre.git",site:""}
+    {title: "Bedetheque",main_img:"bedetheque_1.jpg",imgs:["bedetheque_1.jpg", "bedetheque_2.jpg"],descriptif:"",lang:"CSS, HTML, JS",github:"",site:""},
+    {title: "Jolly Seed",main_img:"jolly_seed_1.jpg",imgs:["jolly_seed_1.jpg", "jolly_seed_2.jpg", "jolly_seed_3.jpg", "jolly_seed_4.jpg", "jolly_seed_5.jpg", "jolly_seed_6.jpg", "jolly_seed_7.jpg", "jolly_seed_8.jpg"],descriptif:"LE grand projet de l'année réalisé  de A à Z à 3. Un sacré défi en PHP !",lang:"CSS, HTML, PHP, JS",github:"https://github.com/mhansart/jolly_seed.git",site:"https://jolly-seed.herokuapp.com/"},
+    {title: "Dei Expo Bridge",main_img:"dei_1.jpg",imgs:["dei_1.jpg", "dei_2.jpg", "dei_3.jpg"],descriptif:"Projet réalisé avec le groupe classe avec un client bien réel. Découverte de l'outil Trello, utilisation de Github avec une grande équipe et premiers pas en React.",lang:"CSS, HTML, JS, React",github:"https://github.com/ltruchot/dei-expo-virtuelle",site:"https://www.dei-belgique.be/expo-bridge/"},
+    {title: "Examen HTML/CSS",main_img:"exam_html_css_1.jpg",imgs:["exam_html_css_1.jpg", "exam_html_css_2.jpg", "exam_html_css_3.jpg"],descriptif:"",lang:"CSS, HTML",github:"",site:""},
+    {title: "Première Calculette",main_img:"premiere_calculette.jpg",imgs:"premiere_calculette.jpg",descriptif:"Projet personnel réalisé afin de confirmer certaines de mes connaissances en JS.",lang:"CSS, HTML, JS",github:"https://github.com/dapdel/calculatrice.git",site:""},
+    {title: "Theatre",main_img:"theatre_1.jpg",imgs:["theatre_1.jpg", "theatre_2.jpg", "theatre_3.jpg", "theatre_3.jpg"],descriptif:"Un petit projet 'fun' afin d'être plus à l'aise avec Jquery et la notion du SetTimeout.",lang:"CSS, HTML, JS, Jquery",github:"https://github.com/dapdel/20_10_30_theatre.git",site:""}
 ];
      export default projets;

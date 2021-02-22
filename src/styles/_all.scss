@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: $texte;
     scrollbar-width: none;
+    ::-webkit-scrollbar {
+      display: none;
+  }
   }
   
   html,
@@ -219,6 +222,9 @@
        }
   @media screen and (max-width: 640px) {
       line-height:90px;
+      }
+      &:hover{
+        transform: scale(1.1, 1.1);
       }
 }
 

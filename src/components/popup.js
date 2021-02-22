@@ -13,22 +13,27 @@ function Popup({index,changeVisibility}){
     //const images = projet.imgs;
     
     return(
-            <div className={`popup${index} popup`}>
-                <div className="contenant">
-                    <div className="croix" onClick={function () { changeVisibility(false); revenir();}}>X</div>
-                    <h2>{projet.title}</h2>
-                    <div className="slider">
-                        <Splide>
-                            {projet.imgs.map((images) =>(
-                                <SplideSlide>
-                                <img src={`images/projets/${images}`} alt="projet0"/>
-                            </SplideSlide>
-                            ))}
-                        </Splide>
+            <div className={`popup${index} popup abs`}>
+                <div className="contenantPopup flex-v">
+                    <div className="croix" onClick={function () { changeVisibility(false); revenir();}}>RETOUR <i className="fas fa-times"></i></div>
+                    <div>
+                        <h2>{projet.title}</h2>
+                        <div className="slider">
+                            <Splide>
+                                {projet.imgs.map((images) =>(
+                                    <SplideSlide>
+                                    <img src={`images/projets/${images}`} alt="projet0"/>
+                                </SplideSlide>
+                                ))}
+                            </Splide>
+                        </div>
+                        <p>{projet.lang}</p>
+                        <p>{projet.descriptif}</p>
                     </div>
-                    <p>Languages utilisés: {projet.lang}</p>
-                    <p>Sur Github: {projet.github}</p>
-                    <p>Sur le web: {projet.site}</p>
+                    <div className="boutons flex-h">
+                        {projet.github!==""?<button><a target="blank" href={`${projet.github}`}>Voir sur Github</a></button>:null}
+                        {projet.site!==""?<button><a target="blank" href={`${projet.site}`}>Voir sur le Web</a></button>:null}
+                    </div>
                 </div>
             </div>
         );
