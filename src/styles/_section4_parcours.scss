@@ -56,7 +56,9 @@
     }
     .date{
         width:100px;
-        text-align: center
+        text-align: center;
+        word-break: keep-all;
+
     }
     .haut{
         transform: translateX(-20px);
@@ -132,10 +134,21 @@
         right:0;
         bottom:0;
     }
+    .car2{
+        transform: rotate(-30deg);
+        bottom:calc(150vh/6);
+        right: calc(100vh/6);
+        @media screen and (max-width: 900px) {
+           
+        }
+        @media screen and (max-width: 640px) {
+           
+        }
+    }
     .car6{
         transform: rotate(-10deg);
-        top:20px;
-        left: calc(250vh/6);
+        top:calc(150vh/6);
+        left: calc(50vh/6);
         @media screen and (max-width: 900px) {
             top: 20px;
             left: 220px;

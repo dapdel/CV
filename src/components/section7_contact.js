@@ -62,11 +62,15 @@ export const Section7Contact = () => (
                     </div>
                     <div className="haut1 flex-h">
                         <div className="bord cv">
-                        <a target="blank" href="https://drive.google.com/file/d/1k0j8tBBYbN9f3t0hm825e8hAfeXvGi0J/view?usp=sharing">Vue/Impression CV</a>
+                        <a target="blank" href="https://drive.google.com/file/d/1k0j8tBBYbN9f3t0hm825e8hAfeXvGi0J/view?usp=sharing" rel="noreferrer">Vue/Impression CV</a>
                            
                         </div>
                         <div className="bord fg"></div>
-                        <div className="in bord larg1 coul4 raj"><i className="fab fa-linkedin-in"></i></div>
+                        <div className="in bord larg1 coul4 raj">
+                            <a href="https://www.linkedin.com/in/daphne-delvaux" target="_blank" rel="noreferrer">
+                            <i className="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="centre fg">
@@ -120,7 +124,11 @@ export const Section7Contact = () => (
                 <div className="droite larg1 inv4">
                     <div className="bord haut1"></div>
                     <div className="bord haut1"></div>
-                    <div className="in bord haut1 coul4"><i className="fab fa-linkedin-in"></i></div>
+                    <div className="in bord haut1 coul4">
+                        <a href="https://www.linkedin.com/in/daphne-delvaux" target="_blank" rel="noreferrer">
+                            <i className="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
                     <div className="bord haut2"></div>
                     <div className="bord haut1" onClick={retourAccueil}>
                         <i className="flechesHaut fas fa-angle-double-up"></i>

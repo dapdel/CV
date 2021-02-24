@@ -18,6 +18,7 @@ function Popup({index,changeVisibility}){
                     <div className="croix" onClick={function () { changeVisibility(false); revenir();}}>RETOUR <i className="fas fa-times"></i></div>
                     <div>
                         <h2>{projet.title}</h2>
+                        {projet.imgs!==""?
                         <div className="slider">
                             <Splide>
                                 {projet.imgs.map((images) =>(
@@ -26,7 +27,7 @@ function Popup({index,changeVisibility}){
                                 </SplideSlide>
                                 ))}
                             </Splide>
-                        </div>
+                        </div>:null}
                         <p>{projet.lang}</p>
                         <p>{projet.descriptif}</p>
                     </div>

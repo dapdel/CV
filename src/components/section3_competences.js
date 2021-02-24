@@ -75,7 +75,6 @@ export const Section3Competences = () => (
                 <div className="bord larg1 haut1 coul0 car4 abs inv4"></div>
             </div>
         </div>
-        
-       
+        <div className="bord larg1logo haut1 coul0 raj"></div>
     </section>
     );
