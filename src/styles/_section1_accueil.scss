@@ -15,6 +15,18 @@
   }
     .milieu-gauche{
         width:72%;
+        img{
+            display:block;
+            width: 99%;
+            margin: auto;
+            @media screen and (max-width: 900px) {
+                width: 100%;
+                padding-top:7px;
+            }
+            @media screen and (max-width: 640px) {
+              display:none;
+            }
+        }
     }
     .milieu-droite{
         width:28%;

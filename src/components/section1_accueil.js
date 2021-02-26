@@ -24,7 +24,9 @@ export const Section1Accueil = () => (
                 <div className="haut flex-h">
                     <div className="gauche flex-v fg">
                         <div className="haut flex-h haut1">
-                            <div className="bord larglogo"></div>
+                            <div className="bord larglogo coul4">
+                                <img className="bord" src="images/logo.png" alt="logo composé de deux D Pour Daphné Delvaux avec deux balises du code intégrées" />
+                            </div>
                             <div className="bord fg"></div>
                             <div className="bord larg1 inv3"></div>
                         </div>

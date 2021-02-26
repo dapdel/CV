@@ -18,12 +18,14 @@ function variationMenu() {
 
 export const Section0Header = () => (
     <section id="section0" className="section sectionHeader flex-h haut1">
-        <div className="logo bord haut1 larglogo coul4">
-            <a href="#section1"><img className="bord" src="images/logo.png" alt="logo composé de deux D Pour Daphné Delvaux avec deux balises du code intégrées" /></a>
+        <a href="#section1"><div className="logo bord haut1 larglogo coul4">
+            <i className ="fas fa-sort-down abs fleche"></i>
+            <img className="bord" src="images/logo.png" alt="logo composé de deux D Pour Daphné Delvaux avec deux balises du code intégrées" />
         </div>
+        </a>
         <header className="flex-v">
             <div className="flex-h haut1 coul0 larg100">
-                <div className="bord haut1 larglogo coul4">
+                <div className="bord haut1 larglogo coul4 rel">
                     <img className="bord" src="images/logo.png" alt="logo composé de deux D Pour Daphné Delvaux avec une balise de code intégrée" />
                 </div>
                 <div className="bord larglogo"></div>

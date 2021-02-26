@@ -29,7 +29,7 @@ function Popup({index,changeVisibility}){
                             </Splide>
                         </div>:null}
                         <p>{projet.lang}</p>
-                        <p>{projet.descriptif}</p>
+                        <p className="descr">{projet.descriptif}</p>
                     </div>
                     <div className="boutons flex-h">
                         {projet.github!==""?<button><a target="blank" href={`${projet.github}`}>Voir sur Github</a></button>:null}
