@@ -22,11 +22,6 @@ function viderFormulaire() {
         envoye.style.display="none";
     },5000);
 }
-/*
-    window.scrollTo({top:0, behavior:'smooth' })
-    */
-   /*envlevé de form pour test: action="mailto:daphne.vanraemdonck@skynet.be" method="post"*/
-
 
 export const Section7Contact = () => (
     <section id="section7" className="section sectionContact">
@@ -61,8 +56,8 @@ export const Section7Contact = () => (
                         <div className="bord haut2 larg2 raj coul4"><img src="images/daphne.png" alt="Daphné Delvaux"/></div>
                     </div>
                     <div className="haut1 flex-h">
-                        <div className="bord cv">
-                        <a target="blank" href="https://drive.google.com/file/d/1k0j8tBBYbN9f3t0hm825e8hAfeXvGi0J/view?usp=sharing" rel="noreferrer">Vue/Impression CV</a>
+                        <div className="bord cv flex-v">
+                        <a target="blank" href="https://drive.google.com/file/d/1TywDL6oJ5kW4hweaQcgt28BIvdii7asI/view?usp=sharing" rel="noreferrer">Vue/Impression CV</a>
                            
                         </div>
                         <div className="bord fg"></div>

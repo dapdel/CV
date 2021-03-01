@@ -61,7 +61,7 @@
 
     }
     .haut{
-        transform: translateX(-20px);
+        transform: translateX(20px);
         justify-content:flex-end;
         padding-right: 15px;
         @media screen and (max-width: 900px) {
@@ -86,7 +86,7 @@
         }
     }
     .info{
-        max-width:400px;
+        max-width:420px;
         @media screen and (max-width: 640px) {
             width: 100%;
             }

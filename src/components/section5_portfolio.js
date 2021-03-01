@@ -54,8 +54,8 @@ const Section5Portfolio = () => {
                     </div>
                 </div>
                 <div className="flex-v inv3 larg1">
-                    <div className="bord  haut2 coul0 larg1"></div>
-                    <div className="bord  haut1 coul0 larg1"></div> 
+                    <div className="bord  haut2 coul0"></div>
+                    <div className="bord  haut1 coul0"></div> 
                 </div>  
             </div>
             <div className="ligne4 flex-h flexend">
