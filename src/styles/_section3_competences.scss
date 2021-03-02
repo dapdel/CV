@@ -28,8 +28,9 @@
             left:30%;
           }
     }
-    .maingauche, .mainmilieu{
-        min-width:38%;   
+    .mainmilieu{
+        min-width:38%;  
+        color: white; 
     }
     .maingauche, .maindroite{
         min-width:24%;   
@@ -47,6 +48,9 @@
             padding:15px;
         }
        
+    }
+    span{
+       text-transform: uppercase; 
     }
     .car2{
         right: 0;

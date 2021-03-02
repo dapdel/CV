@@ -14,10 +14,16 @@ function retourAccueil() {
 function viderFormulaire() {
     const envoye = document.querySelector(".envoye");
     setTimeout(function(){
-        const formulaire = document.querySelector("#contact-form");
-        formulaire.reset();
-        envoye.style.display="block";
+        const name = document.querySelector("#user_name");
+        const mail = document.querySelector("#user_email");
+        const message = document.querySelector("#message");
+        if(name.value!=="" && mail.value!=="" && message.value!==""){
+            const formulaire = document.querySelector("#contact-form");
+            formulaire.reset();
+            envoye.style.display="block";
+            }
     },300);
+
     setTimeout(function(){
         envoye.style.display="none";
     },5000);
@@ -49,11 +55,11 @@ export const Section7Contact = () => (
                     </div>
                     <div className="flex-h">
                         <div className="bord haut2 fg">
-                            <p>Daphné Delvaux de Fenffe <br/>
-                            GSM: 0472545553 <br/>
+                            <p>Daphné Delvaux&nbsp;de&nbsp;Fenffe <br/>
+                            <a className="gsm" href="+32472545553">GSM: +32&nbsp;(0)472&nbsp;54&nbsp;55&nbsp;53</a><br/>
                             ddelvaux71@gmail.com</p>
                         </div>
-                        <div className="bord haut2 larg2 raj coul4"><img src="images/daphne.png" alt="Daphné Delvaux"/></div>
+                        <div className="bord haut2 larg2 raj coul4 rel photo"><img className="abs" src="images/daphneblackwhite.png" alt="Daphné Delvaux"/></div>
                     </div>
                     <div className="haut1 flex-h">
                         <div className="bord cv flex-v">

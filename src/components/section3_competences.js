@@ -24,7 +24,7 @@ export const Section3Competences = () => (
                 <div className=" milieu flex-h">
                     <div className="infographisme bord fg coul0 haut2">
                         <p>
-                        Infographisme :<br/>
+                        <span>Infographie :</span><br/>
                         Photoshop, Illustrator, XD, 
                         Animate,
                         Gimp, Inkscape,
@@ -42,7 +42,7 @@ export const Section3Competences = () => (
                 <div className="bord larg1 coul0 haut1 abs car2 inv3"></div> 
                 <div className="haut flex-h haut2">
                     <div className="gauche bord  haut2 coul2 larg100">
-                        <p>Programmation :<br/>
+                        <p><span>Programmation :</span><br/>
                             Html5, CSS3 et SASS,   
                             JavaScript, Jquery, React, 
                             PHP, MySQL, 
@@ -60,7 +60,7 @@ export const Section3Competences = () => (
                     <div className="gauche bord fg  larg1 coul0"></div> 
                     <div className="droite larg3 flex-v">
                         <div className="bord coul3 haut1">
-                        <p>Humaines et de gestion</p>
+                        <p><span>Humaines</span> et de <span>gestion</span><br/><span>Bilinguisme </span>(fr/angl)</p>
     
                         </div>
                         <div className="haut1 flex-h">

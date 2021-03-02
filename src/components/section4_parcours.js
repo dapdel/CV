@@ -67,7 +67,7 @@ export const Section4Parcours = () => (
                         <p className="info">   Etudes secondaires à la Frankfurt International School
                         et obtention du Bac International (équivalent CESS)              
                         </p>
-                        <p className="date">1980&#x2011;1989</p>
+                        <p className="date">1985&#x2011;1989</p>
                     </div>
                 </div>
                 <div className="bord sstitre larg1 coul3 rel inv4"><h3 className="formations abs">Formations</h3></div>
